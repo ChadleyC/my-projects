@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using AddressBook.Api.Data.Request;
 using AddressBook.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,9 +17,9 @@ namespace AddressBook.Api.Controllers
         }
         
         [HttpGet("Contacts")]
-        public async Task<IActionResult> GetContacts()
+        public async Task<IActionResult> GetContacts(GetContactsResponseModel model)
         {
-            return 
+            return Ok(_contactService.GetContacts(model));
         }
     }
 }

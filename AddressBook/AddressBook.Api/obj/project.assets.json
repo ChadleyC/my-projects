@@ -33,6 +33,15 @@
           "build/DryIoc.props": {}
         }
       },
+      "LinqKit/1.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/net461/LinqKit.dll": {}
+        },
+        "runtime": {
+          "lib/net461/LinqKit.dll": {}
+        }
+      },
       "LiteDB/5.0.8": {
         "type": "package",
         "compile": {
@@ -911,6 +920,27 @@
         "logo.png",
         "readme.txt",
         "tools/ExpressionToCodeLib.2.6.0/ExpressionToCodeLib.dll"
+      ]
+    },
+    "LinqKit/1.1.8": {
+      "sha512": "YQy5PzwxmeEDhPUfrSsDEHzlbpUuLDC48pxrPG7IjnxsPa/StZQfcQy01eZ4oQ2ydvUm0GZod9yOrpf4EWEGjg==",
+      "type": "package",
+      "path": "linqkit/1.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/LinqKit.dll",
+        "lib/net45/LinqKit.xml",
+        "lib/net451/LinqKit.dll",
+        "lib/net451/LinqKit.xml",
+        "lib/net452/LinqKit.dll",
+        "lib/net452/LinqKit.xml",
+        "lib/net46/LinqKit.dll",
+        "lib/net46/LinqKit.xml",
+        "lib/net461/LinqKit.dll",
+        "lib/net461/LinqKit.xml",
+        "linqkit.1.1.8.nupkg.sha512",
+        "linqkit.nuspec"
       ]
     },
     "LiteDB/5.0.8": {
@@ -3659,6 +3689,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DryIoc >= 4.2.1",
+      "LinqKit >= 1.1.8",
       "LiteDB >= 5.0.8",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.5"
     ]
@@ -3712,6 +3743,10 @@
             "target": "Package",
             "version": "[4.2.1, )"
           },
+          "LinqKit": {
+            "target": "Package",
+            "version": "[1.1.8, )"
+          },
           "LiteDB": {
             "target": "Package",
             "version": "[5.0.8, )"
@@ -3748,5 +3783,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LinqKit 1.1.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "LinqKit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

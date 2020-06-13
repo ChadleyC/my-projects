@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kKkhFPuJiObwmhYvIEfOoaESprh6JstjB5UXihqGd5xxWGF/u7/ypHB1zEUUSGh42j0m+2liH3kkzh2OPC3Vbg==",
+  "dgSpecHash": "Im9qO01Ld9SdFr3tDPY3zvFaTPtUGKFcU3NOBNB8ZCpoaRUZzweq4oYuOrQirIlekXAWaLpGgIOwOQnDaQc2pg==",
   "success": true,
   "projectFilePath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\AddressBook.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chadlc01\\.nuget\\packages\\dryioc\\4.2.1\\dryioc.4.2.1.nupkg.sha512",
+    "C:\\Users\\chadlc01\\.nuget\\packages\\linqkit\\1.1.8\\linqkit.1.1.8.nupkg.sha512",
     "C:\\Users\\chadlc01\\.nuget\\packages\\litedb\\5.0.8\\litedb.5.0.8.nupkg.sha512",
     "C:\\Users\\chadlc01\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.5\\microsoft.aspnetcore.authentication.jwtbearer.3.1.5.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
@@ -61,5 +62,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\chadlc01\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LinqKit 1.1.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "LinqKit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

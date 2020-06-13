@@ -12,3 +12,11 @@ C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netc
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\obj\Debug\netcoreapp3.1\AddressBook.Api.csproj.CopyComplete
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\obj\Debug\netcoreapp3.1\AddressBook.Api.csproj.CoreCompileInputs.cache
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\obj\Debug\netcoreapp3.1\AddressBook.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

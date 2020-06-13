@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-3wpSO2KVpe7AFWlnQG7JBtHKOHfik6Nw37\/BHCmjQO8=",
+      "hash": "sha256-aWK6yXz3HYCLzUwJlJs+4EfGnj50rqdN34vWkqD+U9E=",
       "url": "_framework\/_bin\/AddressBook.Web.Client.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-mrbbPB6HnYq4IA9GIMOP4gUm04hfyYUmWq8wrvK8bpU=",
+      "hash": "sha256-X5HwefC9dWw1oFANM4TzNegqCV2oARQsXR\/bazYnpoc=",
       "url": "_framework\/_bin\/AddressBook.Web.Shared.dll"
     },
     {
@@ -277,11 +277,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-H3ohAmC7TxT01dTSqCavQwJSUkmZ7mmkGWY1v7tVDCY=",
+      "hash": "sha256-uZI4EWWQppSUSans4ld1iYoSxwpLDFzJ6tEOnYKsRro=",
       "url": "_framework\/_bin\/AddressBook.Web.Client.pdb"
     },
     {
-      "hash": "sha256-Zb1iguNN2GjfiP\/gdqpgrqtYCK\/Y\/Y6uZcQqyOg\/9r8=",
+      "hash": "sha256-3NKyrN2wWyhXztaLxY78VCCC08hGmnO3uMkvJZLCZ8M=",
       "url": "_framework\/_bin\/AddressBook.Web.Shared.pdb"
     },
     {
@@ -301,7 +301,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-AdzxKzWEdE8WoPzfHak8bzIA1zJ4GA\/A6DZlju21cMc=",
+      "hash": "sha256-plriOqEkL795UpnpB75OpDUWNWZwIaFYWesnX81ty3U=",
       "url": "_framework\/blazor.boot.json"
     }
   ],

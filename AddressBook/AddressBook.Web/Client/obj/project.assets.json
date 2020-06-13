@@ -1474,11 +1474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
+      "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
       "projectName": "AddressBook.Web.Client",
-      "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
+      "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
       "packagesPath": "C:\\Users\\chadlc01\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\obj\\",
+      "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1500,8 +1500,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj": {
-              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj"
+            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj": {
+              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj"
             }
           }
         }

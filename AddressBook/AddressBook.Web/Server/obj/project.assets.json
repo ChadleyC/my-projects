@@ -849,11 +849,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Server\\AddressBook.Web.Server.csproj",
+      "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Server\\AddressBook.Web.Server.csproj",
       "projectName": "AddressBook.Web.Server",
-      "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Server\\AddressBook.Web.Server.csproj",
+      "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Server\\AddressBook.Web.Server.csproj",
       "packagesPath": "C:\\Users\\chadlc01\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Server\\obj\\",
+      "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -875,11 +875,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj": {
-              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj"
+            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj": {
+              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj"
             },
-            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj": {
-              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj"
+            "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj": {
+              "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Shared\\AddressBook.Web.Shared.csproj"
             }
           }
         }

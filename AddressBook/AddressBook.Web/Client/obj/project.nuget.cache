@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MBMJ93fKTsOy7RX89sfLDXWYNPfit11Q3GBaiG8SbXQQfKXeD78/dADUfbP/0AaCvhlOkswFjCpitjkuKYNvoQ==",
+  "dgSpecHash": "l6UyGf2jyiRFRV/NLBP9cKR/XFX9DSjdNchrnAjFS/PqHD8vgRLB4TQbWt9+dzA7Z9BkFr8iguIU7YLYIwLuIA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
+  "projectFilePath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Web\\Client\\AddressBook.Web.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chadlc01\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\chadlc01\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
