@@ -17,9 +17,25 @@ namespace AddressBook.Api.Controllers
         }
         
         [HttpGet("Contacts")]
-        public async Task<IActionResult> GetContacts(GetContactsResponseModel model)
+        public async Task<IActionResult> GetContacts(GetContactsRequestModel model)
         {
-            return Ok(_contactService.GetContacts(model));
+            if (ModelState.IsValid)
+            {
+                return Ok(await _contactService.GetContacts(model));
+            }
+
+            return BadRequest(ModelState);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SaveContact(SaveContactRequestModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(await _contactService.SaveContact(model));
+            }
+
+            return BadRequest(ModelState);
         }
     }
 }

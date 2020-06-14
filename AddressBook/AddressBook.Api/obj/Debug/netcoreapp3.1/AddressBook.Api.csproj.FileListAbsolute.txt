@@ -20,3 +20,4 @@ C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netc
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Api\bin\Debug\netcoreapp3.1\LinqKit.dll

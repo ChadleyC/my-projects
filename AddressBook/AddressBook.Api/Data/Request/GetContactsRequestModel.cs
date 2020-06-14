@@ -5,12 +5,12 @@ using LinqKit;
 
 namespace AddressBook.Api.Data.Request
 {
-    public class GetContactsResponseModel
+    public class GetContactsRequestModel
     {
         public string FirstName { get; set; }
         public string EmailAddress { get; set; }
 
-        public static implicit operator Expression<Func<Contact, bool>>(GetContactsResponseModel model)
+        public static implicit operator Expression<Func<Contact, bool>>(GetContactsRequestModel model)
         {
             var predicate = PredicateBuilder.New<Contact>();
             if (!string.IsNullOrEmpty(model.FirstName))

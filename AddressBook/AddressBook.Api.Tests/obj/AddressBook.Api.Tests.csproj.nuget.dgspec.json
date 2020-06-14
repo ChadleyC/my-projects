@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\AddressBook.Api.csproj": {}
+    "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api.Tests\\AddressBook.Api.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\AddressBook.Api.csproj": {
+    "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api.Tests\\AddressBook.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\AddressBook.Api.csproj",
-        "projectName": "AddressBook.Api",
-        "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\AddressBook.Api.csproj",
+        "projectUniqueName": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api.Tests\\AddressBook.Api.Tests.csproj",
+        "projectName": "AddressBook.Api.Tests",
+        "projectPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api.Tests\\AddressBook.Api.Tests.csproj",
         "packagesPath": "C:\\Users\\chadlc01\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api\\obj\\",
+        "outputPath": "C:\\Dev\\ChadleyClarkGitHub\\my-projects\\AddressBook\\AddressBook.Api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,25 +44,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "DryIoc": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[16.4.0, )"
             },
-            "LinqKit": {
+            "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[1.1.8, )"
+              "version": "[3.15.1, )"
             },
-            "LiteDB": {
+            "nunit": {
               "target": "Package",
-              "version": "[5.0.8, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "foolproof": {
-              "target": "Package",
-              "version": "[0.9.4518, )"
+              "version": "[3.12.0, )"
             }
           },
           "imports": [
@@ -82,9 +74,6 @@
             }
           ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
