@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{ED2D645A-CF81-4E18-BC47-031121A88A50}|Default">
+  <MonoDevelop.Ide.ItemProperties.AddressBook.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../usr/local/share/dotnet/sdk/3.1.301/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+    <Files>
+      <File FileName="AddressBook.Api/Controllers/ContactsController.cs" Line="51" Column="1" />
+      <File FileName="AddressBook.Api/Data/Request/GetContactsRequestModel.cs" Line="13" Column="62" />
+      <File FileName="AddressBook.Api/Data/Request/DeleteContactRequestModel.cs" Line="20" Column="52" />
+      <File FileName="AddressBook.Api/Models/Contact.cs" Line="9" Column="18" />
+      <File FileName="AddressBook.Api/Services/Interfaces/IContactService.cs" Line="17" Column="71" />
+      <File FileName="AddressBook.Api/Services/ContactService.cs" Line="42" Column="33" />
+      <File FileName="AddressBook.Api/Data/Request/UpdateContactRequestModel.cs" Line="7" Column="6" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/3.1.301/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="234" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AddressBook" expanded="True">
+            <Node name="AddressBook.Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ContactsController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True">
+                <Node name="Request" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

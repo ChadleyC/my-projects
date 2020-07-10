@@ -23,6 +23,7 @@ export default class addressbooks extends Component {
 
     getAddressBookEntries() {
         // get addressEntries from the api
+        console.log("getting entries")
     }
 
     saveAddressBookEntry(entry) {
@@ -52,9 +53,15 @@ export default class addressbooks extends Component {
                     key="Id"
                     data={this.state.entries}
                     editable={{
-                        onRowAdd: (newData) => this.saveAddressBookEntry(newData),
-                        onRowUpdate: (newData, oldData) => this.updateAddressBookEntry(oldData, newData),
-                        onRowDelete: (oldData) => this.deleteAddressBookEntry(oldData),
+                        onRowAdd: (newData) => {
+                            this.saveAddressBookEntry(newData)
+                        },
+                        onRowUpdate: (newData, oldData) => {
+                            this.updateAddressBookEntry(oldData, newData)
+                        },
+                        onRowDelete: (oldData) => {
+                            this.deleteAddressBookEntry(oldData)
+                        },
                     }}
                     title="Contacts"
                     isLoading={this.isLoading}

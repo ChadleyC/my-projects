@@ -14,6 +14,6 @@ namespace AddressBook.Api.Services.Interfaces
         Task<Contact> GetContact(Expression<Func<Contact, bool>> where);
         Task<Contact> SaveContact(Contact contact);
         Task<Contact> UpdateContact(Contact contact);
-        Task<bool> DeleteContact(Contact contact);
+        Task<bool> DeleteContact(Expression<Func<Contact, bool>> where);
     }
 }

@@ -27,12 +27,34 @@ namespace AddressBook.Api.Controllers
             return BadRequest(ModelState);
         }
 
-        [HttpPost]
+        [HttpPost("Save")]
         public async Task<IActionResult> SaveContact(SaveContactRequestModel model)
         {
             if (ModelState.IsValid)
             {
                 return Ok(await _contactService.SaveContact(model));
+            }
+
+            return BadRequest(ModelState);
+        }
+
+        [HttpPut("Update")]
+        public async Task<IActionResult> UpdateContact(UpdateContactRequestModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(await _contactService.UpdateContact(model));
+            }
+
+            return BadRequest(ModelState);
+        }
+
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> DeleteContact(DeleteContactRequestModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(await _contactService.DeleteContact(model));
             }
 
             return BadRequest(ModelState);

@@ -37,8 +37,9 @@ namespace AddressBook.Api.Services
             return await _context.UpdateAsync(contact);
         }
 
-        public async Task<bool> DeleteContact(Contact contact)
+        public async Task<bool> DeleteContact(Expression<Func<Contact, bool>> where)
         {
+            var contact = await _context.GetFirstAsync(where);
             return await _context.DeleteAsync(contact);
         }
     }
