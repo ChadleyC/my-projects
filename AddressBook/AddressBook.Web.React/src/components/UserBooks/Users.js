@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import MaterialTable from "material-table";
 import UserService from '../../services/userService';
+import EditUserModal from './EditUserModal';
+const $ = window.$;
 
 export default class UserBooks extends Component {
   
@@ -8,7 +10,7 @@ export default class UserBooks extends Component {
         super();
         this.userService = new UserService();
         this.entries = [];
-
+        this.selectedUser = {};
         this.state = {
             entries: this.entries,
             selectedEntry: null
@@ -74,8 +76,20 @@ export default class UserBooks extends Component {
         });
     }
 
-    onRowClick(contact) {
-        console.log('row was clicked' + contact.toString());
+    setSelectedUser(user) {
+        this.selectedUser = user;
+    }
+
+    showModal() {
+        var modal = $('#editUserModal');
+        modal.modal('show');
+    }
+
+    onRowClick(event, rowData, me) {
+        me.isLoading = true;
+        me.setSelectedUser(rowData);
+        me.showModal();
+        me.isLoading = false;
     }
 
     render() {
@@ -90,7 +104,7 @@ export default class UserBooks extends Component {
                     ]}
                     key="Id"
                     data={this.state.entries}
-                    onRowClick={this.onRowClick}
+                    onRowClick={(event, rowData) => {this.onRowClick(event, rowData, this)}}
                     title="Contacts"
                     isLoading={this.isLoading}
                     detailPanel={rowData => {
@@ -129,6 +143,7 @@ export default class UserBooks extends Component {
                         </form>
                         );
                     }} />
+                <EditUserModal user={this.selectedUser}/>
             </div>
         )
     }

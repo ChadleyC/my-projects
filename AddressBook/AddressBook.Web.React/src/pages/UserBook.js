@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../components/header';
 import Footer from '../components/footer';
 import CopyWright from '../components/copywritesection';
-import Modal from '../components/modal';
 import Users from '../components/UserBooks/Users';
 
 export default class UserBook extends Component {
@@ -25,7 +24,6 @@ export default class UserBook extends Component {
                 </section>
                 <Footer />
                 <CopyWright />
-                <Modal />
             </>
         )
     }
