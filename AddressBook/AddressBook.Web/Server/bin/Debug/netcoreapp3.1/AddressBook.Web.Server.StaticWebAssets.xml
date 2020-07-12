@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Web\Client\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Dev\ChadleyClarkGitHub\my-projects\AddressBook\AddressBook.Web\Client\bin\Debug\netstandard2.1\wwwroot\" />
-</StaticWebAssets>

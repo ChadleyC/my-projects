@@ -87,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AddressBook.Mobile\AddressBook.Mobile.csproj">
-      <Project>{FDCD5A90-5970-4604-8E50-F34933DF3C58}</Project>
+      <Project>{1CDC4A3F-5964-4F57-9B10-EBFE7C050BCF}</Project>
       <Name>AddressBook.Mobile</Name>
     </ProjectReference>
   </ItemGroup>

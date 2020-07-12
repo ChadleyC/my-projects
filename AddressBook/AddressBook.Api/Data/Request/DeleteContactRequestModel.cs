@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 using AddressBook.Api.Models;
+using LinqKit;
 
 namespace AddressBook.Api.Data.Request
 {
@@ -17,7 +18,7 @@ namespace AddressBook.Api.Data.Request
 
             var predicate = PredicateBuilder.New<Contact>();
 
-            predicate.Add(x => x.Id.Equals(model.Id));
+            predicate.And(x => x.Id.Equals(model.Id));
           
             return predicate;
         }

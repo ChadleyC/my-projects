@@ -12,14 +12,19 @@ export default class about extends Component {
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                        <div className="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div className="col-lg-4 ml-auto">
+                        <h6>More about me</h6>
+                        <p class="lead">
+                            I am a passionate developer who is creative and self-driven. I love challenges and finding solutions for problems. I am passionate about mobile and web development and look to better myself as a developer daily. I am a musician and an amateur photographer and would like to think of myself as a creative.
+                            My passion for tech started at a tender age as my father bought a PC home when I was around 8, I was incredibly fascinated by this device. Ever since I wondered how applications worked, at the age of 16 I installed Visual Studio on my computer with Visual Basic, and hence my love for programming was birthed. I started coding in 2012 and in 2014 got my first job doing the thing I love.     
+                        </p>
                     </div>
-                    <div className="text-center mt-4">
-                        <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                            <i className="fas fa-download mr-2"></i>
-                            Free Download!
-                        </a>
+                        <div className="col-lg-4 mr-auto">
+                            <h6>How I keep my skills sharp</h6>
+                            <p class="lead">
+                                Youtube and StackOverflow are my friends. I do a lot of research when it comes to new technology and love watching webinars on new software and new IDE's such as Visual Studio and Rider. I have a subscription with Pluralsight and constantly devour videos from courses as well as purchase Udemy Courses on the regular.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
