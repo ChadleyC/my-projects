@@ -10,7 +10,7 @@
     "axios": "^0.21.1",
     "firebase": "^7.16.0",
     "jquery": "^3.5.1",
-    "material-table": "^1.64.0",
+    "material-table": "^1.69.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
